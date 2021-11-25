@@ -1,0 +1,22 @@
+.cards {
+	display:flex;
+	flex-wrap:wrap;
+	gap :12px;
+	justify-content: space-between;
+}
+.card-white {
+	background-color: rgba(159, 110, 86, 0.8);
+	box-shadow: 0px 10px 30px rgb(0,0,0, 0.6);
+	padding: 30px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap:25px;
+	flex-basis: 200px;
+	flex-grow: 1;
+	margin: 15px auto;
+}
+.card-white img {
+	height: 95px;
+}

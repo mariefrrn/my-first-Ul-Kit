@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/base.css");
+
+body {
+	font-family: Abel;
+	font-size: 23px;
+	color: #B56B45;
+	margin: 2px;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: Bebas;
+	font-size: 33px;
+	color: #412722;
+	text-align: center;
+}
+
+a {
+	text-decoration:none;
+}
